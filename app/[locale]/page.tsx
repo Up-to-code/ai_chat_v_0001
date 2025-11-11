@@ -1,11 +1,12 @@
-import { getTranslations } from 'next-intl/server'
-import React from 'react'
-
+import HeroSection from '@/components/landing/Hero';
+import Navigation from '@/components/landing/navBar';
+ 
 async function page() {
-  const t = await getTranslations('HomePage');
-  return (
-    <div>
-      <h1>{t('title')}</h1>
+   return (
+    <div className="min-h-screen bg-slate-50 font-sans">
+
+     <Navigation/>
+     <HeroSection  key={95}/>
     </div>
   )
 }

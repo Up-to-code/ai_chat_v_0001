@@ -1,5 +1,38 @@
 {
     "HomePage": {
       "title": "Hello world!"
-    }
+    },
+
+ 
+      "nav": {
+        "home": "Home",
+        "about": "About",
+        "features": "Features",
+        "pricing": "Pricing",
+        "contact": "Contact",
+        "signIn": "Sign In",
+        "dashboard": "Dashboard",
+        "startFreeTrial": "Start Free Trial"
+      },
+      "company": {
+        "name": "ChatConnect"
+      },
+
+  "Hero":  {
+ 
+      "title": "Connect with customers across every platform",
+      "subtitle": "Unified messaging platform that integrates WhatsApp, Telegram, and web chat. Respond faster, close more deals, and deliver exceptional customer experiences.",
+      "cta": {
+        "primary": "Start Free Trial",
+        "secondary": "Watch Demo"
+      },
+      "stats": {
+        "satisfaction": "Customer Satisfaction",
+        "users": "Active Users",
+        "response": "Faster Response",
+        "support": "Support Available"
+      }
+  
+}
+   
   }
